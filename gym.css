@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/img/pexels-victor-freitas-841130.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.left{
+     position: absolute;
+    left: 34px;
+    top: 20px;
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+.mid{
+        display: block;
+        width: 42%;
+        margin: 20px auto;
+      border: 3px solid rgb(45, 45, 46); */
+}
+.rigth{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+     /* border: 2px solid green; */
+}
+ .navbar{
+    display: inline-block;
+} 
+.navbar li{
+          font-size: 18px;
+     display: inline-block; 
+}
+.navbar li a{
+     color: white;
+     text-decoration: none;
+     padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: gray;
+    
+}
+.left img{
+    width: 50px;
+    filter: invert(100%);
+}
+.gymname
+{
+    text-decoration: solid;
+    color: white;
+    font-style: inherit;
+    padding-top: 2px;
+    font-size: 32px;
+}
+
+
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+     font-family: 'Roboto', sans-serif;
+
+}
+.btn:hover{
+    background-color: rgb(56, 68, 46);
+
+}
+.container{
+   border: 2px solid rgb(241, 240, 238);
+    margin: 134px 365px;
+    padding: 46px 81px;
+    width: 33%;
+    display: block;
+    border-radius: 24px;
+    color: goldenrod;
+
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 404px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 3px auto;
+    background:none;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 93%;
+    padding: 2px 4px;
+    margin: 21px 14px;
+    border-radius: 7px;
+}
+
